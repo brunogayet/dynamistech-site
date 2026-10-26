@@ -1,73 +1,232 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dynamis — Consultoria e Soluções em Tecnologia</title>
-  <meta name="description" content="Dynamis Consultoria e Soluções em Tecnologia Ltda — consultoria em TI e desenvolvimento de software para logística e transporte. Campo Grande/MS.">
+  <title>Dynamis — Software, IA e consultoria técnica</title>
+  <meta name="description" content="Desenvolvemos produtos digitais, automações com IA e integrações para empresas que querem operar com mais eficiência. Consultoria técnica, SaaS, apps e APIs.">
+  <meta property="og:title" content="Dynamis — Software, IA e consultoria técnica">
+  <meta property="og:description" content="Produtos digitais, automações com IA e integrações sob medida.">
+  <meta property="og:url" content="https://dynamistech.com.br/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c0a09'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='17' fill='%234ade80' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- META_DOMAIN_VERIFICATION: cole aqui a meta tag facebook-domain-verification se usar esse método -->
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Dynamis",
+    "legalName": "DYNAMIS CONSULTORIA E SOLUCOES EM TECNOLOGIA LTDA",
+    "taxID": "51.598.545/0001-82",
+    "url": "https://dynamistech.com.br",
+    "email": "contato@dynamistech.com.br",
+    "telephone": "+55-67-9220-7622",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Itacuruçá, 1217 - Jardim Tropical",
+      "addressLocality": "Campo Grande",
+      "addressRegion": "MS",
+      "postalCode": "79060-580",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="index.html">Dynamis<span>.</span></a>
-      <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#produtos">Produtos</a>
-        <a href="#contato">Contato</a>
-        <a href="privacidade.html">Privacidade</a>
+      <a class="brand" href="index.html" aria-label="Dynamis, início"><span class="brand-mark">D</span>Dynamis</a>
+      <nav class="nav" aria-label="Principal">
+        <a class="hide-sm" href="#servicos">Serviços</a>
+        <a class="hide-sm" href="#como-trabalhamos">Como trabalhamos</a>
+        <a class="hide-sm" href="#produtos">Produtos</a>
+        <a class="btn btn-primary" href="#contato">Fale conosco</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <div class="wrap">
-      <h1>Consultoria e soluções em tecnologia</h1>
-      <p class="lead">A Dynamis desenvolve software e presta consultoria em tecnologia da informação para empresas de logística e transporte, com foco em automação de documentos, comprovação de entrega e pagamento de frete.</p>
-
-      <h2 id="sobre">Sobre a empresa</h2>
-      <p>Fundada em 2023 em Campo Grande, Mato Grosso do Sul, a Dynamis atua na integração de sistemas, no processamento de documentos fiscais e de transporte (NF-e, CT-e, MDF-e) e no desenvolvimento de plataformas para transportadoras, embarcadores e motoristas.</p>
-
-      <div class="grid">
-        <div class="card">
-          <h3>Consultoria em TI</h3>
-          <p>Diagnóstico, arquitetura e integração de sistemas para operações logísticas.</p>
-        </div>
-        <div class="card">
-          <h3>Desenvolvimento de software</h3>
-          <p>Plataformas web, aplicativos e APIs sob medida.</p>
-        </div>
-        <div class="card">
-          <h3>Automação de documentos</h3>
-          <p>Leitura e validação de canhotos, notas e conhecimentos de transporte.</p>
+    <section class="hero">
+      <div class="wrap">
+        <span class="eyebrow reveal"><span class="dot"></span>Software, IA e consultoria técnica</span>
+        <h1 class="reveal" style="--d:.08s">Tecnologia que coloca a sua <span class="accent">operação em movimento.</span></h1>
+        <p class="lead reveal" style="--d:.16s">Projetamos e construímos produtos digitais, automações com inteligência artificial e integrações para empresas que querem escalar sem aumentar a complexidade.</p>
+        <div class="actions reveal" style="--d:.24s">
+          <a class="btn btn-primary" href="#contato">Agendar uma conversa
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
         </div>
       </div>
+    </section>
 
-      <h2 id="produtos">Produtos</h2>
-      <div class="card">
-        <h3>Vecta Pague Frete</h3>
-        <p>Plataforma para comprovação de entrega e pagamento de frete a motoristas. O motorista acessa com seu CPF e recebe códigos de acesso e avisos sobre suas viagens e pagamentos pelo WhatsApp.</p>
-        <p><strong>Vecta Pague Frete é operado por DYNAMIS CONSULTORIA E SOLUCOES EM TECNOLOGIA LTDA, CNPJ 51.598.545/0001-82.</strong></p>
+    <div class="marquee" aria-label="Tecnologias">
+      <div class="marquee-track">
+        <span>TypeScript</span><span>React</span><span>Next.js</span><span>React Native · Expo</span><span>Python</span><span>FastAPI</span><span>Node.js</span><span>PostgreSQL</span><span>Supabase</span><span>Azure AI</span><span>OpenAI · Claude · Gemini</span><span>Stripe</span><span>Docker</span><span>Cloudflare</span><span>OpenAPI</span>
+        <span aria-hidden="true">TypeScript</span><span aria-hidden="true">React</span><span aria-hidden="true">Next.js</span><span aria-hidden="true">React Native · Expo</span><span aria-hidden="true">Python</span><span aria-hidden="true">FastAPI</span><span aria-hidden="true">Node.js</span><span aria-hidden="true">PostgreSQL</span><span aria-hidden="true">Supabase</span><span aria-hidden="true">Azure AI</span><span aria-hidden="true">OpenAI · Claude · Gemini</span><span aria-hidden="true">Stripe</span><span aria-hidden="true">Docker</span><span aria-hidden="true">Cloudflare</span><span aria-hidden="true">OpenAPI</span>
       </div>
-
-      <h2 id="contato">Contato</h2>
-      <dl>
-        <dt>Razão social</dt><dd>DYNAMIS CONSULTORIA E SOLUCOES EM TECNOLOGIA LTDA</dd>
-        <dt>Nome fantasia</dt><dd>Dynamis</dd>
-        <dt>CNPJ</dt><dd>51.598.545/0001-82</dd>
-        <dt>Endereço</dt><dd>Rua Itacuruçá, 1217 — Jardim Tropical, Campo Grande/MS, CEP 79060-580</dd>
-        <dt>Telefone</dt><dd><a href="tel:+556792207622">(67) 9220-7622</a></dd>
-        <dt>E-mail</dt><dd><a href="mailto:contato@dynamistech.com.br">contato@dynamistech.com.br</a></dd>
-      </dl>
     </div>
+
+    <section class="block" id="servicos">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Serviços</span>
+          <h2>Do diagnóstico ao produto em produção.</h2>
+          <p>Atuamos como seu time de engenharia ou ao lado dele: arquitetura, desenvolvimento e operação, com foco em resultado de negócio.</p>
+        </div>
+
+        <div class="services reveal">
+          <article class="service">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+            <h3>Plataformas SaaS sob medida</h3>
+            <p>Do MVP à escala: produtos web multiempresa com permissões por perfil, trilha de auditoria, cobrança recorrente e API para clientes.</p>
+            <div class="tags"><span>Multi-tenant</span><span>RBAC</span><span>Billing</span></div>
+          </article>
+
+          <article class="service">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></div>
+            <h3>IA aplicada a documentos</h3>
+            <p>Captura, leitura e validação automática de notas, comprovantes e formulários com modelos de visão e extração treinados para o seu caso.</p>
+            <div class="tags"><span>OCR</span><span>Extração</span><span>LLMs</span></div>
+          </article>
+
+          <article class="service">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg></div>
+            <h3>Automação fiscal e logística</h3>
+            <p>Ingestão e conciliação de NF-e, CT-e e MDF-e, comprovação de entrega e regras de pagamento de frete integradas ao seu ERP.</p>
+            <div class="tags"><span>NF-e</span><span>CT-e</span><span>Conciliação</span></div>
+          </article>
+
+          <article class="service">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div>
+            <h3>APIs e integrações</h3>
+            <p>APIs documentadas, webhooks confiáveis e integrações com pagamentos, WhatsApp, ERPs e serviços de terceiros.</p>
+            <div class="tags"><span>REST</span><span>Webhooks</span><span>Pagamentos</span></div>
+          </article>
+
+          <article class="service">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+            <h3>Aplicativos web e mobile</h3>
+            <p>Apps para iOS, Android e web a partir de uma única base de código, com experiência rápida mesmo em campo e com conexão instável.</p>
+            <div class="tags"><span>React Native</span><span>PWA</span><span>Design system</span></div>
+          </article>
+
+          <article class="service">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></div>
+            <h3>Consultoria técnica e arquitetura</h3>
+            <p>Diagnóstico de sistemas, desenho de arquitetura, segurança e adoção de engenharia assistida por IA para acelerar o seu time.</p>
+            <div class="tags"><span>Arquitetura</span><span>Code review</span><span>IA no desenvolvimento</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="como-trabalhamos" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Como trabalhamos</span>
+          <h2>Ciclos curtos, entregas visíveis.</h2>
+          <p>Um processo enxuto, inspirado nas melhores consultorias de produto, para reduzir risco desde a primeira semana.</p>
+        </div>
+        <div class="process">
+          <div class="step"><span class="num">01</span><h3>Diagnóstico</h3><p>Entendemos o problema, os dados e os processos atuais e definimos o que gera mais valor primeiro.</p></div>
+          <div class="step"><span class="num">02</span><h3>Arquitetura e protótipo</h3><p>Decisões técnicas documentadas e um protótipo navegável para validar antes de investir.</p></div>
+          <div class="step"><span class="num">03</span><h3>Construção</h3><p>Entregas semanais em produção, com testes automatizados e acompanhamento transparente.</p></div>
+          <div class="step"><span class="num">04</span><h3>Operação e evolução</h3><p>Monitoramento, suporte e melhoria contínua guiada por métricas de uso.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" style="padding-top:0">
+      <div class="wrap split">
+        <div class="section-head reveal" style="margin-bottom:0">
+          <span class="kicker">Por que a Dynamis</span>
+          <h2>Engenharia sênior, sem camadas.</h2>
+          <p>Você fala direto com quem desenha e constrói a solução. Menos reuniões, mais software funcionando.</p>
+        </div>
+        <div class="principles" data-stagger>
+          <div class="principle reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div><h3>Segurança desde o primeiro dia</h3><p>Controle de acesso, auditoria e LGPD fazem parte da arquitetura, não de um ajuste no final.</p></div>
+          </div>
+          <div class="principle reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9z"/></svg></div>
+            <div><h3>IA como acelerador</h3><p>Usamos agentes de IA no desenvolvimento e no produto, sem ficar preso a um único fornecedor de modelo.</p></div>
+          </div>
+          <div class="principle reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg></div>
+            <div><h3>Código e conhecimento seus</h3><p>Repositório, documentação e decisões registradas ficam com a sua empresa.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Setores</span>
+          <h2>Experiência onde a operação é crítica.</h2>
+        </div>
+        <div class="sectors" data-stagger>
+          <div class="card reveal"><h3>Logística e transporte</h3><p>Transportadoras, embarcadores e operadores que lidam com documentos fiscais, motoristas e prazos.</p></div>
+          <div class="card reveal"><h3>Pagamentos e finanças</h3><p>Fluxos de liberação, conciliação e cobrança com regras auditáveis.</p></div>
+          <div class="card reveal"><h3>Operações B2B</h3><p>Back-office, portais de clientes e automação de processos repetitivos.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="produtos" style="padding-top:0">
+      <div class="wrap">
+        <div class="product reveal">
+          <div>
+            <span class="kicker">Produto</span>
+            <h3 style="margin-top:12px">Vecta Pague Frete</h3>
+            <p>Plataforma de comprovação de entrega e pagamento de frete. O motorista acessa com o CPF, envia o comprovante pelo celular e recebe avisos de liberação pelo WhatsApp.</p>
+          </div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Leitura automática de canhotos e documentos</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Regras de liberação configuráveis por cliente</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Notificações ao motorista via WhatsApp</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contato">
+      <div class="wrap reveal">
+        <h2>Vamos tirar sua próxima ideia do papel?</h2>
+        <p>Conte o desafio e respondemos em até um dia útil com os próximos passos.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:contato@dynamistech.com.br?subject=Projeto%20com%20a%20Dynamis">contato@dynamistech.com.br
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="tel:+556792207622">(67) 9220-7622</a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="wrap">
-      <p>© 2026 DYNAMIS CONSULTORIA E SOLUCOES EM TECNOLOGIA LTDA · CNPJ 51.598.545/0001-82 · Rua Itacuruçá, 1217, Jardim Tropical, Campo Grande/MS, CEP 79060-580</p>
-      <p>Vecta Pague Frete é operado por DYNAMIS CONSULTORIA E SOLUCOES EM TECNOLOGIA LTDA, CNPJ 51.598.545/0001-82. · <a href="privacidade.html">Política de Privacidade</a> · <a href="termos.html">Termos de Uso</a></p>
+      <div class="legal">
+        © <span id="year">2026</span> DYNAMIS CONSULTORIA E SOLUCOES EM TECNOLOGIA LTDA · CNPJ 51.598.545/0001-82<br>
+        Rua Itacuruçá, 1217, Jardim Tropical, Campo Grande/MS, CEP 79060-580<br>
+        Vecta Pague Frete é operado pela Dynamis.
+      </div>
+      <div class="links">
+        <a href="privacidade.html">Privacidade</a>
+        <a href="termos.html">Termos</a>
+        <a href="mailto:contato@dynamistech.com.br">Contato</a>
+      </div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

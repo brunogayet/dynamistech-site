@@ -1,24 +1,28 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Termos de Uso — Dynamis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c0a09'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='17' fill='%234ade80' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="index.html">Dynamis<span>.</span></a>
-      <nav>
-        <a href="index.html">Início</a>
-        <a href="privacidade.html">Privacidade</a>
+      <a class="brand" href="index.html" aria-label="Dynamis, início"><span class="brand-mark">D</span>Dynamis</a>
+      <nav class="nav" aria-label="Principal">
+        <a class="hide-sm" href="index.html#servicos">Serviços</a>
+        <a class="btn btn-primary" href="index.html#contato">Fale conosco</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <div class="wrap">
+    <div class="wrap doc">
       <h1>Termos de Uso</h1>
       <p class="updated">Última atualização: 24 de outubro de 2026</p>
 
@@ -43,14 +47,21 @@
       <p>Fica eleito o foro da comarca de Campo Grande/MS.</p>
 
       <h2>7. Contato</h2>
-      <p><a href="mailto:contato@dynamistech.com.br">contato@dynamistech.com.br</a> · (67) 9220-7622</p>
+      <p><a href="mailto:contato@dynamistech.com.br">contato@dynamistech.com.br</a></p>
     </div>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="wrap">
-      <p>© 2026 DYNAMIS CONSULTORIA E SOLUCOES EM TECNOLOGIA LTDA · CNPJ 51.598.545/0001-82</p>
+      <div class="legal">© <span id="year">2026</span> DYNAMIS CONSULTORIA E SOLUCOES EM TECNOLOGIA LTDA · CNPJ 51.598.545/0001-82</div>
+      <div class="links">
+        <a href="index.html">Início</a>
+        <a href="privacidade.html">Privacidade</a>
+        <a href="termos.html">Termos</a>
+      </div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
